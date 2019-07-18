@@ -11,7 +11,7 @@ let box_height = 100;
 let empty = 0;
 let ship = 1;
 let missed = 2;
-let grid = [[0, 0, 0, 0, 0, 0, 1, 1, 0, 1],
+let grid = [[0, 0, 0, 0, 0, 0, 1, 1, 0, 1], //rows and columns are switched in this array
             [0, 0, 0, 0, 0, 0, 0, 0 ,0, 1],
             [0, 1, 1, 1, 1, 0, 0, 0, 0, 1],
             [0, 0, 0, 0, 1, 1, 1, 1, 1, 0],
